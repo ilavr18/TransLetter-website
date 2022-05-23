@@ -1,0 +1,146 @@
+html, body{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 155px;
+  margin-right: 155px;
+}
+.container{
+  width: 1280;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header{
+  display: flex;
+  background: #ffff;
+  height: 80px;
+}
+
+.left-header{
+  display: flex;
+  padding-left: 40px;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  width: 320px;
+}
+.center-header{
+  display: flex;
+  align-items: center;
+  background: rgba(255, 0, 0, 0.76);
+  width: 760px;
+}
+.right-header{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  background: rgba(255, 0, 0, 0.76);
+  width: 200px;
+}
+
+a.about{
+  margin-left: 40px;
+  color: #fff;
+}
+a.contact{
+  margin-left: 20px;
+  color: #fff;
+}
+a.users{
+  margin-left: 20px;
+  color: #fff;
+}
+a.login{
+  margin-left: 5px;
+  color: #fff;
+}
+a.profile{
+  margin-left: -20px;
+  color: #fff;
+}
+a.registration{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.main{
+  display: flex;
+  padding: 20px;
+  min-height: 840px;
+  padding-right: 0;
+}
+.main-left{
+  margin-top: -20px;
+  background-color: rgba(247, 53, 53, 0.76);
+  width: 340px;
+}
+.main-right{
+  margin-top: -20px;
+  width: 970px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+.table {
+  border-collapse: collapse;
+  margin-top:  10px;
+  border: 3px solid rgb(249, 255, 218);
+}
+th {
+  border: 3px solid rgba(220, 255, 218, 0.7);
+  background-color: rgb(249, 255, 218);
+ }
+.table td:first-child{
+  border: 3px solid rgb(220, 255, 218, 0.7);
+  background-color: rgb(216, 233, 196);
+  text-align: left;
+}
+td {
+  border: 3px solid rgb(220, 255, 218, 0.7);
+  background-color: rgb(216, 233, 196);
+  text-align: center;
+}
+.input1{
+  height: 25px;
+  width: 150px;
+  margin-left: 4px;
+  margin-right: -3px;
+}
+.input2{
+  height: 25px;
+  width: 580px;
+  text-align: center;
+  margin-left: -55px;
+  margin-right: -40px;
+}
+.buttonAdd{
+  height: 28px;
+}
+
+
+.button-del{
+  height: 50px;
+  width: 100px;
+}
+
+
+.footer{
+  display: flex;
+  background: rgb(189, 87, 87);
+}
+.footer-cont{
+  display: flex;
+  color: rgb(255, 255, 255);
+  height: 180px;
+  width: 630px;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  padding-left: 700px;
+}

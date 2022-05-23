@@ -1,0 +1,13 @@
+# Eclipse
+.classpath
+.project
+.settings/
+.out/
+/out/
+
+#Intellij
+.idea/
+*.iml
+*.iws
+.out/
+/bin/

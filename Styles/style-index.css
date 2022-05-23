@@ -1,0 +1,131 @@
+html, body{
+	margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 155px;
+  margin-right: 155px;
+}
+.container{
+  width: 1280;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.header{
+  display: flex;
+  background: #ffff;
+	height: 80px;
+}
+.left-header{
+  display: flex;
+  padding-left: 40px;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  width: 320px;
+}
+.center-header{
+  display: flex;
+  align-items: center;
+  background: rgba(255, 0, 0, 0.76);
+  width: 760px;
+}
+.right-header{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  background: rgba(255, 0, 0, 0.76);
+  width: 200px;
+}
+a.about{
+  margin-left: 40px;
+  color: #fff;
+}
+a.contact{
+  margin-left: 20px;
+  color: #fff;
+}
+a.users{
+  margin-left: 20px;
+  color: #fff;
+}
+a.login{
+  margin-left: 5px;
+  color: #fff;
+}
+a.profile{
+  margin-left: -20px;
+  color: #fff;
+}
+a.registration{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+
+.main{
+  display: flex;
+  padding: 20px;
+  min-height: 840px;
+  padding-right: 0;
+  background-color: rgba(247, 53, 53, 0.76);
+}
+.main-left{
+  width: 340px;
+}
+.main-right{
+  margin-top: -20px;
+  width: 970px;
+  background-color: rgb(255, 255, 255);
+}
+.slider {
+  margin: 10px;
+  max-width: 2000px;
+  max-height: 400px;
+}
+/* дополнительные стили для этого примера */
+.slider__items {
+  counter-reset: slide;
+}
+.slider__item {
+  position: relative;
+  counter-increment: slide;
+}
+.slider__item::after {
+  content: counter(slide);
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #fff;
+  font-style: italic;
+  font-size: 32px;
+  font-weight: bold;
+}
+.img-fluid {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+
+.footer{
+  display: flex;
+  background: rgb(189, 87, 87);
+}
+.footer-cont{
+  display: flex;
+  color: rgb(255, 255, 255);
+  height: 180px;
+  width: 630px;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  padding-left: 700px;
+}
